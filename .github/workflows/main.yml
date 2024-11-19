@@ -1,4 +1,4 @@
-name: Deploy SMK PGRI 2 Malang to Hpanel
+name: Deploy PPDB SMK PGRI 2 Malang to Hpanel
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy SMK PGRI 2 Malang to Public
+    name: Deploy PPDB SMK PGRI 2 Malang to Public
 
     steps:
       - name: Checkout code
@@ -24,7 +24,7 @@ jobs:
             cd /home/u904124108/domains/smkpgri2malang.sch.id
 
             # Clone repository if not exists
-            if [ ! -d "smkpgri2" ]; then
+            if [ ! -d "ppdbsmk2" ]; then
               git clone https://github.com/ahmakbardev/ppdbsmk2.git
             fi
 
