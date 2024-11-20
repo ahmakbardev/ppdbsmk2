@@ -59,7 +59,8 @@ jobs:
             composer install
             composer update
 
-            cp .env.example .env
+            # untuk awal commit
+            # cp .env.example .env
 
             # Run Laravel commands
             php artisan key:generate
