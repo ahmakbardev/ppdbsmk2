@@ -16,10 +16,10 @@
                     <i data-feather="chevron-down" class="ml-2 w-4 transition-transform"></i>
 
                 </button> --}}
-                <!-- Dropdown Menu -->
-                {{-- <div id="profileDropdown"
+            <!-- Dropdown Menu -->
+            {{-- <div id="profileDropdown"
                     class="absolute top-full mt-2 z-[21] left-0 w-48 bg-white p-1 text-gray-800 rounded-lg shadow-lg opacity-0 transition-opacity duration-300 invisible"> --}}
-                    {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a> --}}
+            {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a> --}}
             {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Prestasi</a> --}}
             {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sejarah</a> --}}
             {{-- <a href="#mission" class="block px-4 py-2 hover:bg-gray-100">Visi Misi</a> --}}
@@ -27,8 +27,8 @@
         </div>
     </div> --}}
 
-    <!-- Konsentrasi Keahlian Dropdown -->
-    {{-- <button id="konsentrasiBtn" class="relative flex items-center">Konsentrasi Keahlian
+            <!-- Konsentrasi Keahlian Dropdown -->
+            {{-- <button id="konsentrasiBtn" class="relative flex items-center">Konsentrasi Keahlian
                 <i data-feather="chevron-down" class="ml-2 w-4 transition-transform"></i>
             </button>
 
@@ -37,31 +37,31 @@
             </button>
             <button id="fasilitasBtn" class="relative flex items-center">Fasilitas
                 <i data-feather="chevron-down" class="ml-2 w-4 transition-transform"></i> --}}
-    {{-- </button> --}}
-    {{-- <a href="#" class="">Berita</a>
+            {{-- </button> --}}
+            {{-- <a href="#" class="">Berita</a>
             <a href="#" class="">PPDB</a> --}}
-    </div>
+        </div>
 
-    <!-- Desktop Authentication Links -->
-    <div class="hidden md:flex items-center space-x-4">
-        <a href="https://wa.me/6288230534873?text=Halo%20SMK%20PGRI%202%20Malang%2C%20saya%20ingin%20mendaftar%20sebagai%20siswa.%20Mohon%20informasinya."
-            target="_blank"
-            class="bg-green-500 text-white transition-all ease-in-out px-5 py-2 rounded-md text-sm font-medium hover:bg-green-700 flex items-center space-x-2">
-            <span>Daftar Sekarang</span>
-        </a>
+        <!-- Desktop Authentication Links -->
+        <div class="hidden md:flex items-center space-x-4">
+            <a href="https://wa.me/6288230534873?text=Halo%20SMK%20PGRI%202%20Malang%2C%20saya%20ingin%20mendaftar%20sebagai%20siswa.%20Mohon%20informasinya."
+                target="_blank"
+                class="bg-green-500 text-white transition-all ease-in-out px-5 py-2 rounded-md text-sm font-medium hover:bg-green-700 flex items-center space-x-2">
+                <span>Daftar Sekarang</span>
+            </a>
 
-    </div>
+        </div>
 
-    <!-- Mobile Hamburger Menu -->
-    <div class="md:hidden">
-        <button id="hamburger" class="focus:outline-none">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-                </path>
-            </svg>
-        </button>
-    </div>
+        <!-- Mobile Hamburger Menu -->
+        <div class="md:hidden">
+            <button id="hamburger" class="focus:outline-none">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
     </div>
 
     {{-- <div id="siswaDropdown"
@@ -173,12 +173,10 @@
             <a href="#" class="">Fasilitas</a>
             <a href="#" class="">Tentang</a> --}}
             {{-- <a href="{{ route('guru.list') }}" class="">Guru</a> --}}
-            <a href="#" class="">Berita</a>
-            <a href="#" class="">PPDB</a>
-            <a href="#"
-                class="bg-green-500 text-white transition-all ease-in-out px-5 py-2 rounded-md text-sm font-medium hover:bg-green-700 flex items-center space-x-2">
-                <span>Daftar Sekarang</span>
-            </a>
+            {{-- <a href="#" class="">Berita</a> --}}
+            <a href="{{ url('/') }}" class="text-white">PPDB</a>
+            <a href="https://wa.me/6288230534873?text=Halo%20SMK%20PGRI%202%20Malang%2C%20saya%20ingin%20mendaftar%20sebagai%20siswa.%20Mohon%20informasinya."
+                class="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded">Daftar Sekarang</a>
         </nav>
     </div>
 </nav>
