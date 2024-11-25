@@ -22,7 +22,7 @@
                     {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a> --}}
             {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Prestasi</a> --}}
             {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sejarah</a> --}}
-            <a href="#mission" class="block px-4 py-2 hover:bg-gray-100">Visi Misi</a>
+            {{-- <a href="#mission" class="block px-4 py-2 hover:bg-gray-100">Visi Misi</a> --}}
             {{-- <a href="{{ route('guru.list') }}" class="block px-4 py-2 hover:bg-gray-100">Guru</a> --}}
         </div>
     </div> --}}
