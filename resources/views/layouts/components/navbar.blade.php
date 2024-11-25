@@ -15,15 +15,15 @@
                 <button id="profileBtn" class="cursor-pointer relative flex items-center">Profil
                     <i data-feather="chevron-down" class="ml-2 w-4 transition-transform"></i>
 
-                </button>
+                </button> --}}
                 <!-- Dropdown Menu -->
-                <div id="profileDropdown"
-                    class="absolute top-full mt-2 z-[21] left-0 w-48 bg-white p-1 text-gray-800 rounded-lg shadow-lg opacity-0 transition-opacity duration-300 invisible">
+                {{-- <div id="profileDropdown"
+                    class="absolute top-full mt-2 z-[21] left-0 w-48 bg-white p-1 text-gray-800 rounded-lg shadow-lg opacity-0 transition-opacity duration-300 invisible"> --}}
                     {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a> --}}
             {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Prestasi</a> --}}
             {{-- <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sejarah</a> --}}
             {{-- <a href="#mission" class="block px-4 py-2 hover:bg-gray-100">Visi Misi</a> --}}
-            {{-- <a href="{{ route('guru.list') }}" class="block px-4 py-2 hover:bg-gray-100">Guru</a> --}}
+            {{-- <a href="{{ route('guru.list') }}" class="block px-4 py-2 hover:bg-gray-100">Guru</a>
         </div>
     </div> --}}
 
