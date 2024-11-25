@@ -14,7 +14,8 @@
                         dengan pendidikan berkualitas dan fasilitas lengkap.
                     </p>
                     <div>
-                        <a href="#daftar-sekarang"
+                        <a href="https://wa.me/6288230534873?text=Halo%20SMK%20PGRI%202%20Malang%2C%20saya%20ingin%20mendaftar%20sebagai%20siswa.%20Mohon%20informasinya."
+                            target="_blank"
                             class="inline-block px-6 py-3 bg-[#139a4a] text-white font-semibold text-lg rounded-lg shadow-lg hover:bg-green-600 transition duration-300">
                             Daftar Sekarang
                         </a>
@@ -563,16 +564,17 @@
                     <ul class="space-y-2">
                         <li>
                             <strong>Alamat:</strong>
-                            <p>Jl. Ahmad Yani No.45, Malang, Jawa Timur</p>
+                            <p>Jl. Janti Barat Blk. A No.24, Bandungrejosari, Kec. Sukun, Kota Malang, Jawa Timur 65148</p>
                         </li>
                         <li>
                             <strong>Telepon:</strong>
-                            <p><a href="tel:+628123456789" class="text-[#139a4a] hover:underline">+62 812-3456-789</a></p>
+                            <p><a href="tel:+628123456789" class="text-[#139a4a] hover:underline">+62 882-3053-4873</a>
+                            </p>
                         </li>
                         <li>
                             <strong>Email:</strong>
                             <p><a href="mailto:info@smkpgri2malang.sch.id"
-                                    class="text-[#139a4a] hover:underline">info@smkpgri2malang.sch.id</a></p>
+                                    class="text-[#139a4a] hover:underline">smkpgri2kotamalang@gmail.com</a></p>
                         </li>
                     </ul>
                 </div>
@@ -582,7 +584,7 @@
                     <h3 class="text-2xl font-semibold text-[#139a4a] mb-4">Lokasi</h3>
                     <div class="rounded-lg overflow-hidden shadow-lg">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.324785215387!2d112.62315851539744!3d-7.977905081515308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629afd6d4c317%3A0xabc1234567890abc!2sSMK%20PGRI%202%20Malang!5e0!3m2!1sen!2sid!4v1681234567890!5m2!1sen!2sid"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15803.802078814715!2d112.6217937!3d-8.00404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd627ffc6fd814b%3A0xf0585c9eff811447!2sSMK%20PGRI%202%20Malang!5e0!3m2!1sid!2sid!4v1732500018098!5m2!1sid!2sid"
                             width="100%" height="300" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
